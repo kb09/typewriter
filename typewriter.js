@@ -1,4 +1,4 @@
-const sentence = "hello there from lighthouse labs";
+const sentence = "animation logic";
 const seperateWords = sentence
 let counter = 0;
 for (const char of seperateWords){
@@ -7,3 +7,5 @@ for (const char of seperateWords){
   }, counter)
   counter += 150
 };
+
+process.stdout.write("/n")
