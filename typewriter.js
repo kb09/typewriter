@@ -6,6 +6,11 @@ for (const char of seperateWords){
     process.stdout.write(char)
   }, counter)
   counter += 150
-};
+}
 
-process.stdout.write("/n")
+
+setTimeout(() => {
+  process.stdout.write('\n');
+}, counter);
+
+
